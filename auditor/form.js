@@ -33,7 +33,7 @@ function sendMessage() {
     previousResponse.remove();
   }
 
-  fetch('https://api.0x0.ai/message', {
+  fetch('https://api.GPT4X.ai/message', {
     method: 'POST',
     headers: {
       accept: 'application.json',
